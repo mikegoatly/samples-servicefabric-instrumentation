@@ -40,7 +40,11 @@ namespace IGotRhythm.ServiceFabric.Instrumentation.Communication.Wcf
 
         private static void AddHeaders(ServiceRemotingMessageHeaders headers)
         {
-            headers.AddHeader(ServiceRemotingHeaders.Identity, SerializationHelper.SerializeToBytes(ClaimsPrincipal.Current));
+            byte[] value;
+            if (!headers.TryGetHeaderValue(ServiceRemotingHeaders.Identity, out value))
+            {
+                headers.AddHeader(ServiceRemotingHeaders.Identity, SerializationHelper.SerializeToBytes(ClaimsPrincipal.Current));
+            }
         }
     }
 }
