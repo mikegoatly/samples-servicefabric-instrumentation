@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "IntrumentationSample", "IntrumentationSample\IntrumentationSample.sfproj", "{8CCADA3E-E177-47ED-A0AD-BA1F3172406C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStatelessService", "MyStatelessService\MyStatelessService.csproj", "{43429A74-EC0A-40CD-8D04-43269B76EB72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStatelessService.Contracts", "MyStatelessService.Contracts\MyStatelessService.Contracts.csproj", "{7D598DBB-D9E7-472B-949B-0AF354AF0757}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGotRhythm.ServiceFabric.Instrumentation", "IGotRhythm.ServiceFabric.Instrumentation\IGotRhythm.ServiceFabric.Instrumentation.csproj", "{9CFF2727-A8FB-48E0-A797-835795B4452E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyServiceTest", "MyServiceTest\MyServiceTest.csproj", "{B55031EF-F507-450B-988E-3DF78BA881E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CCADA3E-E177-47ED-A0AD-BA1F3172406C}.Debug|x64.ActiveCfg = Debug|x64
+		{8CCADA3E-E177-47ED-A0AD-BA1F3172406C}.Debug|x64.Build.0 = Debug|x64
+		{8CCADA3E-E177-47ED-A0AD-BA1F3172406C}.Debug|x64.Deploy.0 = Debug|x64
+		{8CCADA3E-E177-47ED-A0AD-BA1F3172406C}.Release|x64.ActiveCfg = Release|x64
+		{8CCADA3E-E177-47ED-A0AD-BA1F3172406C}.Release|x64.Build.0 = Release|x64
+		{8CCADA3E-E177-47ED-A0AD-BA1F3172406C}.Release|x64.Deploy.0 = Release|x64
+		{43429A74-EC0A-40CD-8D04-43269B76EB72}.Debug|x64.ActiveCfg = Debug|x64
+		{43429A74-EC0A-40CD-8D04-43269B76EB72}.Debug|x64.Build.0 = Debug|x64
+		{43429A74-EC0A-40CD-8D04-43269B76EB72}.Release|x64.ActiveCfg = Release|x64
+		{43429A74-EC0A-40CD-8D04-43269B76EB72}.Release|x64.Build.0 = Release|x64
+		{7D598DBB-D9E7-472B-949B-0AF354AF0757}.Debug|x64.ActiveCfg = Debug|x64
+		{7D598DBB-D9E7-472B-949B-0AF354AF0757}.Debug|x64.Build.0 = Debug|x64
+		{7D598DBB-D9E7-472B-949B-0AF354AF0757}.Release|x64.ActiveCfg = Release|Any CPU
+		{7D598DBB-D9E7-472B-949B-0AF354AF0757}.Release|x64.Build.0 = Release|Any CPU
+		{9CFF2727-A8FB-48E0-A797-835795B4452E}.Debug|x64.ActiveCfg = Debug|x64
+		{9CFF2727-A8FB-48E0-A797-835795B4452E}.Debug|x64.Build.0 = Debug|x64
+		{9CFF2727-A8FB-48E0-A797-835795B4452E}.Release|x64.ActiveCfg = Release|Any CPU
+		{9CFF2727-A8FB-48E0-A797-835795B4452E}.Release|x64.Build.0 = Release|Any CPU
+		{B55031EF-F507-450B-988E-3DF78BA881E6}.Debug|x64.ActiveCfg = Debug|x64
+		{B55031EF-F507-450B-988E-3DF78BA881E6}.Debug|x64.Build.0 = Debug|x64
+		{B55031EF-F507-450B-988E-3DF78BA881E6}.Release|x64.ActiveCfg = Release|Any CPU
+		{B55031EF-F507-450B-988E-3DF78BA881E6}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
